@@ -18,6 +18,7 @@ class App extends Component {
     
       let url = `https://api.giphy.com/v1/gifs/random?&api_key=${this.state.apiKey}`;
       fetch(url)
+        .then(res => res.json())
         .then(res => this.setState({ imageSrc: res.data.image_url}))
         .catch((res) => {
           console.log('ERROR: No image from API!');
