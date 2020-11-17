@@ -5,8 +5,12 @@ class Search extends Component {
         return ( 
             <>
                 <div>
-                    <label>Search Giphy</label>
-                    <input type="text" placeholder="search for?"></input>
+                    <form>
+                        <label>Search Giphy</label>
+                        <input type="text" placeholder="search for?"></input>
+                     <span> <button>Enter</button></span>
+                    </form>
+                   
                 </div>
             </>
          );

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 class Giphy extends Component {
     render() { 
         return ( 
-            <li>giphy</li>
+            <li>giphy image</li>
             
          );
     }
